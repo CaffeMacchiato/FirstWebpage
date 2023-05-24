@@ -1,0 +1,75 @@
+/*
+File: style.css
+GUI Assignment 1: Creating My First Webpage
+Masha Tsykora, UMass Lowell Computer Science, mary_tsykora@student.uml.edu
+Copyright (c) 2023 by Masha Tsykora. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Updated on 5/23/23 at 10:05pm.
+Instructor: Professor Wenjin Zhou
+Sources of Help: W3Schools and Javatpoint
+Brief Overview: I created a website for my first HW assignment in GUI 1 which explains some information about me.
+I only used HTML and CSS. I showed some of my current interests and inspirations, as well as some work I've done with pixel art.
+I also included a link with information on how to build a LEGO car model and a GIF of a cute bunny I found on Tenor.
+*/
+
+/* Navbar styles */
+nav {
+  background-color: #3f56ab;
+}
+
+nav a {
+  margin-right: 10px;
+  color: #89b0b7;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #21b1ca;
+}
+
+/* Highlighted heading */
+.highlighted-heading {
+  background-color: hotpink;
+}
+
+#tea-image {
+  margin-bottom: 200px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  background-color: #5dda1f;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-style: dotted;
+}
+
+th {
+  background-color: #0c5420;
+}
+
+/* Cell colors */
+.blue-cell {
+  background-color: deepskyblue;
+}
+
+.red-cell {
+  background-color: rgb(217, 32, 29);
+}
+
+.white-cell {
+  background-color: whitesmoke;
+}
+
+.yellow-cell {
+  background-color: rgb(202, 202, 31);
+}
+
+.dark-gray-cell {
+  background-color: rgb(53, 44, 44);
+}
