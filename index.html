@@ -1,0 +1,123 @@
+<!--
+File: index.html
+GUI Assignment 1: Creating My First Webpage
+Masha Tsykora, UMass Lowell Computer Science, mary_tsykora@student.uml.edu
+Copyright (c) 2023 by Masha Tsykora. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Updated on 5/23/23 at 10:05pm.
+Instructor: Professor Wenjin Zhou
+Sources of Help: W3Schools and Javatpoint
+Brief Overview: I created a website for my first HW assignment in GUI 1 which explains some information about me.
+I only used HTML and CSS. I showed some of my current interests and inspirations, as well as some work I've done with pixel art.
+I also included a link with information on how to build a LEGO car model and a GIF of a cute bunny I found on Tenor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div>
+      <nav>
+        <a href="./index.html">Home</a>
+      </nav>
+    </div>
+    
+    <div>
+      <b class="highlighted-heading"> Hello, this is my webpage! </b>
+    </div>
+    
+    <div>
+      <p> <br> My name is Masha Tsykora, and I'm a senior computer science major at UMass Lowell. <br> 
+        I enjoy building with LEGO, cooking, and reading manga. I've also been learning pixel art this summer. <br> <br>
+        My favorite things to build with LEGO are sports cars and supercars. Here are a few of my favorites:
+      </p>
+      <table>
+        <tr>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Color</th>
+        </tr>
+        <tr> 
+          <td>Bugatti</td>
+          <td>Bolide</td>
+          <td class="blue-cell">Blue</td>
+        </tr>
+        <tr>
+          <td>Ferrari</td>
+          <td>FXXK</td>
+          <td class="red-cell">Red</td>
+        </tr>
+        <tr>
+          <td>McLaren</td>
+          <td>GT</td>
+          <td class="white-cell">White</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>Supra</td>
+          <td class="yellow-cell">Yellow</td>
+        </tr>
+        <tr>
+          <td>Audi</td>
+          <td>R8 V10</td>
+          <td class="dark-gray-cell">Dark Gray</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div>
+      <p> One of my favorite car builds I've done is the Honda Civic Type R. I used a model I found on Bricklink Studio as a start, and 
+        then added my signature working doors and opening hood. The page has free 3D building instructions, and you're able to freely 
+        rotate around the model with your mouse. <br> This is what it looks like, followed by the building instructions: <br>
+        <img src="Media/HondaCivic.png" alt="Honda Civic build I found on Bricklink Studio" width="400" height="300"> <br>
+        <a href="https://www.bricklink.com/v3/studio/design.page?idModel=111583"> Bricklink Studio building instructions</a>
+      </p>
+    </div>
+    
+    <div>
+      <p> <br> I love looking at Pinterest for inspiration with my pixel art, these are some of my finds. </p>
+      <!-- I got this picture from https://8pxl.tumblr.com/page/19 -->
+      <img src="Media/OceanSunset.png" alt="Pixel art ocean waves I found on Tumblr" width="200" height="400">
+
+      <!-- I got this picture from https://twitter.com/merrigo_/status/1263274499530567680/photo/1 -->
+      <img src="Media/Tea.png" alt="Pixel art tea I found on Twitter" id="my-image" width="400" height="200">
+
+      <!-- I got this picture from https://zephrous.tumblr.com/post/149695078870 -->
+      <img src="Media/NightSky.jpg" alt="Pixel night sky I found on Tumblr" width="200" height="400">
+    </div>
+
+    <div>
+      <p> This is an image I've created with pixel art in the open source art platform Krita. I used a reference image to recreate
+        a donut with strawberry frosting as my first serious venture into making my own pixel art from scratch. <br> </p>
+      <img src="Media/Donut.JPG" alt="Pixel art donut made in Krita" width="300" height="300">
+    </div>
+    
+    <div>
+      <p> My favorite animals are bunnies, here's a cute GIF I found on Tenor. </p> 
+      <!-- I got this gif from https://tenor.com/view/bunny-cute-heart-kawaii-pink-gif-12390178 -->
+      <img src="Media/bunny-cute.gif" alt="Cute bunny gif from Tenor">
+    </div>
+
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+      </a>
+  </p>
+       
+
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valid CSS!" />
+          </a>
+      </p>
+  </body>
+</html>
